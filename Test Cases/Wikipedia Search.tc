@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Wikipedia Search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a0034fe5-75a1-4f9e-b890-4f8bc522b2c0</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>006fa6f1-1b3b-4b58-af31-c81a2251ccbb</id>
+      <masked>false</masked>
+      <name>Search</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>523b2d4b-8a04-426d-ac42-8e75879cf4f9</id>
+      <masked>false</masked>
+      <name>ExpectedResult</name>
+   </variable>
+</TestCaseEntity>

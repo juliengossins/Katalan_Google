@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Suite_Wikipedia</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-09-19T16:10:50</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>b3628700-1cdf-4d0f-b677-f860a313409d</testSuiteGuid>
+   <testCaseLink>
+      <guid>519b3534-6329-4420-bbc0-1363168e6062</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Wikipedia Search</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>38ed9f08-6394-4fd5-a5b3-a6ec11bf0af0</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Data1</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>38ed9f08-6394-4fd5-a5b3-a6ec11bf0af0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Search</value>
+         <variableId>006fa6f1-1b3b-4b58-af31-c81a2251ccbb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>38ed9f08-6394-4fd5-a5b3-a6ec11bf0af0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ExpectedResult</value>
+         <variableId>523b2d4b-8a04-426d-ac42-8e75879cf4f9</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

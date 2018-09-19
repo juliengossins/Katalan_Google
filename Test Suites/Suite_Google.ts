@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Suite_Google</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-09-19T15:12:08</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>9f7cc8ca-c8db-49c4-b4ea-06981c5a8e4d</testSuiteGuid>
+   <testCaseLink>
+      <guid>5c40b69c-7950-492a-bd32-7487d3b0d008</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Google Search</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e2e589b2-e775-4541-85e8-f2612b50f501</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Data1</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>e2e589b2-e775-4541-85e8-f2612b50f501</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Search</value>
+         <variableId>edc03be2-54db-4c33-9bdb-d7fbebefe944</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e2e589b2-e775-4541-85e8-f2612b50f501</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ExpectedResult</value>
+         <variableId>fd421d4f-2ea8-4f0c-8628-a42cdd8c26be</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

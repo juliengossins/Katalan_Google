@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Google Search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9b97fd7d-7499-4d0c-a726-26e2329cfabb</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>edc03be2-54db-4c33-9bdb-d7fbebefe944</id>
+      <masked>false</masked>
+      <name>Search</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fd421d4f-2ea8-4f0c-8628-a42cdd8c26be</id>
+      <masked>false</masked>
+      <name>ExpectedResult</name>
+   </variable>
+</TestCaseEntity>
