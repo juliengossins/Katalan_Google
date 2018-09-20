@@ -10,11 +10,15 @@
          <value>.btnK</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//input[@name = 'btnK' and @type = 'submit']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@name='btnK']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

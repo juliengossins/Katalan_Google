@@ -4,7 +4,7 @@
    <name>Suite_Wikipedia</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-09-20T11:46:06</lastRun>
+   <lastRun>2018-09-20T12:18:35</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

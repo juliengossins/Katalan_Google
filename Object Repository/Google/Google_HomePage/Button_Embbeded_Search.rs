@@ -10,11 +10,15 @@
          <value>.lsbb>.lsb</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'button' and @class = 'lsb']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@value='Recherche Google']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <value>Recherche Google</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

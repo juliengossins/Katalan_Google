@@ -4,7 +4,7 @@
    <name>Suite_Google</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-09-20T12:03:04</lastRun>
+   <lastRun>2018-09-20T13:26:59</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

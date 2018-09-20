@@ -20,8 +20,6 @@ WebUI.navigateToUrl('https://www.google.com')
 WebUI.setText(findTestObject('Google/Google_HomePage/TextField_Search'), Search)
 
 try {
-    WebUI.waitForElementVisible(findTestObject('Google/Google_HomePage/Button_Embbeded_Search'), 5)
-
     WebUI.click(findTestObject('Google/Google_HomePage/Button_Embbeded_Search'))
 }
 catch (Exception e) {
