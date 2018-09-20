@@ -6,11 +6,15 @@
    <elementGuidId>093bda6e-0592-4988-a7a0-062f0a554650</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>.btnK</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@name='btnK']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

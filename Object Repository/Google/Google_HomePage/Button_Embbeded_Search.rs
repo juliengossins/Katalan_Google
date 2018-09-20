@@ -6,11 +6,15 @@
    <elementGuidId>ecfec721-7aff-4c8e-851a-eeb33f7394b1</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>.lsbb>.lsb</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@value='Recherche Google']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

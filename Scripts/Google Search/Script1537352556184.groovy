@@ -19,9 +19,14 @@ WebUI.navigateToUrl('https://www.google.com')
 
 WebUI.setText(findTestObject('Google/Google_HomePage/TextField_Search'), Search)
 
-WebUI.waitForElementVisible(findTestObject('Google/Google_HomePage/Button_Embbeded_Search'), 5)
+try {
+    WebUI.waitForElementVisible(findTestObject('Google/Google_HomePage/Button_Embbeded_Search'), 5)
 
-WebUI.click(findTestObject('Google/Google_HomePage/Button_Embbeded_Search'))
+    WebUI.click(findTestObject('Google/Google_HomePage/Button_Embbeded_Search'))
+}
+catch (Exception e) {
+    WebUI.click(findTestObject('Google/Google_HomePage/Button_Search'))
+} 
 
 WebUI.waitForElementClickable(findTestObject('Google/Google_SearchResults/Link_FirstResult'), 5)
 
@@ -29,7 +34,11 @@ WebUI.click(findTestObject('Google/Google_SearchResults/Link_FirstResult'))
 
 WebUI.waitForElementPresent(findTestObject('Wikipedia/Wikipedia_Article/Text_HeaderTitle'), 5)
 
-WebUI.verifyElementText(findTestObject('Wikipedia/Wikipedia_Article/Text_HeaderTitle'), ExpectedResult)
+if (ExpectingSuccess) {
+    WebUI.verifyElementText(findTestObject('Wikipedia/Wikipedia_Article/Text_HeaderTitle'), ExpectedResult)
+} else {
+    CustomKeywords.'element.extended.ElementTextIsNot'(findTestObject('Wikipedia/Wikipedia_Article/Text_HeaderTitle'), ExpectedResult)
+}
 
 WebUI.closeBrowser()
 

@@ -6,11 +6,15 @@
    <elementGuidId>a61a5c8a-409e-4436-a1cd-32cc698d6e10</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>.rc>.r>a</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//*[@id=&quot;rso&quot;]/div[2]/div/div/div/h3/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -4,7 +4,7 @@
    <name>Suite_Google</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-09-19T15:12:08</lastRun>
+   <lastRun>2018-09-20T12:03:04</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -36,6 +36,12 @@
          <type>DATA_COLUMN</type>
          <value>ExpectedResult</value>
          <variableId>fd421d4f-2ea8-4f0c-8628-a42cdd8c26be</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e2e589b2-e775-4541-85e8-f2612b50f501</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ExpectingSuccess</value>
+         <variableId>41c2fb6c-e03b-443c-8939-417c812b18eb</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

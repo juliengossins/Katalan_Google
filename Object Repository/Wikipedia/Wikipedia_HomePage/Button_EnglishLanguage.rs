@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='js-link-box-en']/strong</value>
+         <value>//*[@id='js-link-box-en']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
