@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Header</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cf89adec-a5da-48d5-852a-b21349f2b120</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7532e5f8-9d32-4e33-a21b-51310259ec7b</id>
+      <masked>false</masked>
+      <name>ExpectedResult</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f555e854-8d41-46d5-abd5-7c95c34cb51a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b6180a6c-c455-4646-a85f-bdaac2956894</id>
+      <masked>false</masked>
+      <name>SearchText</name>
+   </variable>
+</TestCaseEntity>

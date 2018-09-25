@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WIkipedia Modules</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b51258bf-df1d-48c4-9dd5-8d4b06ec5c82</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8bacfc53-97e4-4869-861e-67f12049e922</id>
+      <masked>false</masked>
+      <name>Language</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bdbb12f1-01d0-4e7d-b5b7-42367fc4e12b</id>
+      <masked>false</masked>
+      <name>Search</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9105dadf-a677-46c4-81fc-3d12dfa2af4e</id>
+      <masked>false</masked>
+      <name>Expected</name>
+   </variable>
+</TestCaseEntity>

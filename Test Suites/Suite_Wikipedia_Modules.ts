@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Suite_Wikipedia_Modules</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-09-20T14:46:14</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>5</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>da0f9aed-6732-441c-badd-3f8fcef2fcfb</testSuiteGuid>
+   <testCaseLink>
+      <guid>ac516bd4-88f1-4e70-bc5e-e8546e79b862</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/WIkipedia Modules</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e2dd3cbf-8f7e-47d3-a2a0-51adcab07cb6</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/WikipediaModulesData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>e2dd3cbf-8f7e-47d3-a2a0-51adcab07cb6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Language</value>
+         <variableId>8bacfc53-97e4-4869-861e-67f12049e922</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e2dd3cbf-8f7e-47d3-a2a0-51adcab07cb6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Search</value>
+         <variableId>bdbb12f1-01d0-4e7d-b5b7-42367fc4e12b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e2dd3cbf-8f7e-47d3-a2a0-51adcab07cb6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Expected</value>
+         <variableId>9105dadf-a677-46c4-81fc-3d12dfa2af4e</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
