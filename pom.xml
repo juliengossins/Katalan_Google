@@ -25,7 +25,6 @@
             <argument>-projectPath=${katalon.project.file}</argument>
             <argument>-executionProfile=default</argument>
             <argument>-retry=0</argument>
-            <argument>-testSuiteCollectionPath=${katalon.testsuitecollection.path}</argument>
           </arguments>
         </configuration>
       </plugin>
