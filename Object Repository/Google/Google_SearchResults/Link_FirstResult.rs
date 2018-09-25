@@ -10,8 +10,12 @@
          <value>.rc>.r>a</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;r&quot;]/a</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;rso&quot;]/div[2]/div/div/div/h3/a</value>
+         <value>//*[@id=&quot;rc&quot;]/*[@id=&quot;r&quot;]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
@@ -21,7 +25,8 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h3</value>
+      <value>a
+</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,18 +36,18 @@
       <value>LC20lb</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>République française - France — Wikipédia</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;rso&quot;)/div[@class=&quot;bkWMgd&quot;]/div[@class=&quot;g&quot;]/div[1]/div[@class=&quot;rc&quot;]/div[@class=&quot;r&quot;]/a[1]/h3[@class=&quot;LC20lb&quot;]</value>
+      <value>//*[@id=&quot;r&quot;]/a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
